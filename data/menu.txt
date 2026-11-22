@@ -1,0 +1,14 @@
+# Daftar Menu Restoran: KODE|NAMA_MENU|KATEGORI|HARGA
+# Makanan: E1, E2, ... | Minuman: M1, M2, ...
+E4|Sate Ayam Madura|Makanan|28000
+E2|Ayam Bakar Madu|Makanan|30000
+E1|Nasi Goreng Spesial|Makanan|25000
+E3|Mie Goreng Jawa|Makanan|22000
+E6|Bakso Beranak|Makanan|20000
+E5|Soto Ayam Lamongan|Makanan|23000
+E7|Mie Ayam Pangsit|Makanan|18000
+E8|Bebek Goreng Sambal Ijo|Makanan|35000
+M2|Es Jeruk Peras|Minuman|8000
+M1|Es Teh Manis|Minuman|5000
+M3|Kopi Susu Aren|Minuman|18000
+M4|Jus Alpukat|Minuman|15000
