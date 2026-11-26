@@ -16,8 +16,12 @@ Aplikasi konsol berbasis Bahasa C (100% C) untuk sistem pemesanan restoran multi
 7. **Tree (Topik 7):** *Binary Search Tree (BST)* untuk penyimpanan, pencarian, penghapusan, dan *traversal* (*Pre-Order*, *In-Order*, *Post-Order*) katalog menu, serta *N-ary Tree* untuk hierarki zona wilayah cabang.
 8. **Graph (Topik 8):** *Weighted Graph* peta jalan kota yang menghubungkan 4 cabang restoran dan 7 kelurahan, dilengkapi **BFS** (cek cabang buka terdekat), **DFS** (verifikasi konektivitas seluruh jalan), dan **Algoritma Dijkstra** (penentuan rute terpendek & ongkos kirim kurir).
 
-## Cara Kompilasi & Menjalankan
-Jalankan perintah berikut pada direktori utama proyek (`622025009_Annabelle_ASD_TR/`):
+## Cara Kompilasi dan Menjalankan Program
 
-```bash
-./app
+Pastikan terminal berada di direktori utama proyek (`622025009_Annabelle_ASD_TR`).
+
+### Menggunakan PowerShell (Windows)
+Ketikkan:
+gcc (Get-ChildItem src\*.c).FullName -Iinclude -o app
+Jika tidak muncul pesan eror, jalankan programnya dengan mengetikkan:
+.\app.exe
