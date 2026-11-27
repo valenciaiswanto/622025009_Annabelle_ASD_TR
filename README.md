@@ -22,6 +22,6 @@ Pastikan terminal berada di direktori utama proyek (`622025009_Annabelle_ASD_TR`
 
 ### Menggunakan PowerShell (Windows)
 Ketikkan:
-gcc (Get-ChildItem src\*.c).FullName -Iinclude -o app
+gcc -std=c99 -Wall -Wextra -Iinclude src/main.c src/topik1_2_file_auth.c src/topik3_sorting.c src/topik4_stack_queue.c src/topik5_searching.c src/topik6_hash.c src/topik7_tree.c src/topik8_graph.c src/ui_menu.c -o app.exe
 Jika tidak muncul pesan eror, jalankan programnya dengan mengetikkan:
 .\app.exe
